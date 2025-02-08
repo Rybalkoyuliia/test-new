@@ -1,19 +1,11 @@
+import { MainPage } from "./components/main_page/MainPage";
+import { SideBar } from "./components/sidebar/SideBar";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SideBar />
+      <MainPage />
     </div>
   );
 }
